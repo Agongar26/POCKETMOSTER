@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">POCKET MONSTER</string>
+    <string name="splash_view">Pulsa para iniciar</string>
+    <string name="title_home">CATÁLOGO</string>
+    <string name="title_dashboard">MERCADO</string>
+    <string name="title_secret">SECRETO</string>
+    <string name="title_notifications">QUIZ</string>
+    <string name="title_account">CUENTA</string>
+    <string name="name">Nombre</string>
+    <string name="alias">Alias</string>
+    <string name="email">Correo</string>
+    <string name="FecNac">Nacimiento</string>
+    <string name="mostrar_creditos">Mostrar Créditos</string>
+    <string name="enviar_mail">Enviar mail</string>
+    <string name="credit_Activity">POCKET MOSTER\nEs una aplicación para los aficionados\nDe Pokémon\n\nDesarrollado por: \nAleandro González\nGarcía\nVersión 1.0\n© 2025</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_catalog"
+        android:icon="@drawable/ic_catalog_black_24dp"
+        android:title="@string/title_home"/>
+
+    <item
+        android:id="@+id/navigation_market"
+        android:icon="@drawable/ic_market_black_24dp"
+        android:title="@string/title_dashboard"/>
+
+    <item
+        android:id="@+id/navigation_secret"
+        android:icon="@drawable/ic_secret_black_24dp"
+        android:title="@string/title_secret"/>
+
+    <item
+        android:id="@+id/navigation_quiz"
+        android:icon="@drawable/ic_quiz_black_24dp"
+        android:title="@string/title_notifications"/>
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/ic_account_black_24dp"
+        android:title="@string/title_account"/>
+
+</menu>
