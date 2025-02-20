@@ -32,7 +32,9 @@ class AccountFragment : Fragment() {
 
         // Configurar botón para abrir CreditActivity
         binding.button.setOnClickListener {
+            val nombreIngresado = binding.editTextText.text.toString() // Obtener el texto
             val intent = Intent(requireContext(), CreditActivity::class.java)
+            intent.putExtra("NOMBRE", nombreIngresado) // Pasar el texto con un Extra
             startActivity(intent)
         }
 
