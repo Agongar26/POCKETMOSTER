@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class SecretViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is secret Fragment"
+        value = "Próximamente"
     }
     val text: LiveData<String> = _text
 }

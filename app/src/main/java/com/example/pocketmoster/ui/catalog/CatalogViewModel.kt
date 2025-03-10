@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class CatalogViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is catalog Fragment"
+        value = "Próximamente"
     }
     val text: LiveData<String> = _text
 }

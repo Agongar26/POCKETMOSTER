@@ -14,4 +14,10 @@
     <string name="enviar_mail">Enviar mail</string>
     <string name="credit_Activity">POCKET MOSTER\nEs una aplicación para los aficionados\nDe Pokémon\n\nDesarrollado por: \nAleandro González\nGarcía\nVersión 1.0\n© 2025</string>
     <string name="nombre">Nombre:</string>
+    <string name="eliminar_cuenta">Eliminar cuenta</string>
+    <string name="nuevo_correo">Nuevo correo</string>
+    <string name="nuevo_nombre">Nuevo nombre</string>
+    <string name="save">Guardar cambios</string>
+    <string name="modificar_datos">Modificar datos</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
 </resources>

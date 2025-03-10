@@ -32,7 +32,7 @@ class CreditActivity : AppCompatActivity() {    //Define la actividad de crédit
     private fun enviarCorreo(nombreApp: String, nombreIngresado: String) {
         val emailIntent = Intent(Intent.ACTION_SEND).apply {    //Crea un intent para enviar un email
             type = "message/rfc822"  // Especifica que solo queremos apps de correo
-            putExtra(Intent.EXTRA_EMAIL, arrayOf("mailto:agongar2601@g.educaand.es")) //Email a enviar
+            putExtra(Intent.EXTRA_EMAIL, arrayOf("agongar2601@g.educaand.es")) //Email a enviar
             putExtra(Intent.EXTRA_SUBJECT, "Consulta de la app $nombreApp") //Asuno del correo
         }
 

@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class QuizViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is quiz Fragment"
+        value = "Próximamente"
     }
     val text: LiveData<String> = _text
 }

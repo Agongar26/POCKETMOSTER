@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class MarketViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is market Fragment"
+        value = "Próximamente"
     }
     val text: LiveData<String> = _text
 }
