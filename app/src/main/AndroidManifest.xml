@@ -24,6 +24,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- Actividad para el inicio y el regisdtro de sesión -->
+        <activity android:name=".ui.session.LoginActivity" />
+        <activity android:name=".ui.session.RegisterActivity" />
+        <activity android:name=".ui.session.SessionActivity" android:exported="true" />
         <!-- Actividad principal -->
         <activity
             android:name=".MainActivity"
